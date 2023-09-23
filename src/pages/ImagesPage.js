@@ -4,7 +4,7 @@ import React from "react";
 const ImagesPage = ({ data }) => {
   return (
     <>
-      <div className="main  w-[100%] h-auto mt-4 flex flex-wrap gap-10">
+      <div className="main  w-[100%] h-auto mt-4 mx-10 flex flex-wrap gap-10">
         {data?.map((item, key) => {
           return (
             <React.Fragment key={key}>
