@@ -12,7 +12,6 @@ export default function Home() {
  
 
   const getData = async () => {
-
     const res = await getImages(images, count);
     setData(res?.data?.hits);
   };
@@ -25,7 +24,6 @@ export default function Home() {
    
   }, [count]);
 
-  console.log(data, "DATA");
   return (
     <>
       <div className="main-container  w-[100%] h-auto bg-[#181A1B]">
