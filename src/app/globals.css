@@ -77,6 +77,25 @@
   }
 }
 
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
   display: none;
+} */
+body{
+  background-color: black;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: black;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #3B3B3B;
+  border-radius: 5px;
+  
 }
